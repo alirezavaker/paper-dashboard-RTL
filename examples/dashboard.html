@@ -1,0 +1,368 @@
+<!--
+=========================================================
+* Paper Dashboard 2 - v2.0.1
+=========================================================
+
+* Product Page: https://www.creative-tim.com/product/paper-dashboard-2
+* Copyright 2020 Creative Tim (https://www.creative-tim.com)
+
+Coded by www.creative-tim.com
+
+ =========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="../assets/img/apple-icon.png"
+    />
+    <link rel="icon" type="image/png" href="../assets/img/favicon.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Paper Dashboard 2 by Creative Tim</title>
+    <meta
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no"
+      name="viewport"
+    />
+    <!--     Fonts and icons     -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200"
+      rel="stylesheet"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <!-- CSS Files -->
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../assets/css/paper-dashboard.css" rel="stylesheet" />
+    <!-- CSS Just for demo purpose, don't include it in your project -->
+    <link href="../assets/demo/demo.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="sidebar" data-color="white" data-active-color="danger">
+        <div class="logo text-right">
+          <a href="https://www.creative-tim.com" class="simple-text logo-mini">
+            <div class="logo-image-small">
+              <img src="../assets/img/logo-small.png" />
+            </div>
+            <!-- <p>CT</p> -->
+          </a>
+          <a
+            href="https://www.creative-tim.com"
+            class="simple-text logo-normal pr-2"
+          >
+            علیرضا مختاری
+            <!-- <div class="logo-image-big">
+            <img src="../assets/img/logo-big.png">
+          </div> -->
+          </a>
+        </div>
+        <div class="sidebar-wrapper">
+          <ul class="nav text-right">
+            <li class="active">
+              <a href="./dashboard.html">
+                <i class="nc-icon nc-bank"></i>
+                <p>پیشخوان</p>
+              </a>
+            </li>
+            <li>
+              <a href="./icons.html">
+                <i class="nc-icon nc-diamond"></i>
+                <p>دسته بندی</p>
+              </a>
+            </li>
+            <li>
+              <a href="./map.html">
+                <i class="nc-icon nc-pin-3"></i>
+                <p>نقش های کاربری</p>
+              </a>
+            </li>
+            <li>
+              <a href="./notifications.html">
+                <i class="nc-icon nc-bell-55"></i>
+                <p>کاربران</p>
+              </a>
+            </li>
+            <li>
+              <a href="./user.html">
+                <i class="nc-icon nc-single-02"></i>
+                <p>دوره ها</p>
+              </a>
+            </li>
+            <li>
+              <a href="./tables.html">
+                <i class="nc-icon nc-tile-56"></i>
+                <p>فایل ها</p>
+              </a>
+            </li>
+            <li>
+              <a href="./typography.html">
+                <i class="nc-icon nc-caps-small"></i>
+                <p>برچسب ها</p>
+              </a>
+            </li>
+            <li class="active-pro">
+              <a href="./upgrade.html">
+                <i class="nc-icon nc-spaceship"></i>
+                <p>تنظیمات</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="main-panel">
+        <!-- Navbar -->
+        <nav
+          class="navbar navbar-expand-lg navbar-absolute fixed-top navbar-transparent"
+        >
+          <div class="container-fluid">
+            <div class="navbar-wrapper">
+              <div class="navbar-toggle">
+                <button type="button" class="navbar-toggler">
+                  <span class="navbar-toggler-bar bar1"></span>
+                  <span class="navbar-toggler-bar bar2"></span>
+                  <span class="navbar-toggler-bar bar3"></span>
+                </button>
+              </div>
+              <a class="navbar-brand" href="javascript:;">سایت فارسی</a>
+            </div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navigation"
+              aria-controls="navigation-index"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-bar navbar-kebab"></span>
+              <span class="navbar-toggler-bar navbar-kebab"></span>
+              <span class="navbar-toggler-bar navbar-kebab"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navigation"
+            >
+              <form>
+                <div class="input-group no-border search_top_index_page">
+                  <input
+                    type="text"
+                    value=""
+                    class="form-control"
+                    placeholder="جستجو..."
+                  />
+                  <div class="input-group-append">
+                    <div class="input-group-text">
+                      <i class="nc-icon nc-zoom-split ml-2"></i>
+                    </div>
+                  </div>
+                </div>
+              </form>
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link btn-magnify" href="javascript:;">
+                    <i class="nc-icon nc-layout-11"></i>
+                    <p>
+                      <span class="d-lg-none d-md-block">آمار</span>
+                    </p>
+                  </a>
+                </li>
+                <li class="nav-item btn-rotate dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="http://example.com"
+                    id="navbarDropdownMenuLink"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    <i class="nc-icon nc-bell-55"></i>
+                    <p>
+                      <span class="d-lg-none d-md-block">برخی اقدامات</span>
+                    </p>
+                  </a>
+                  <div
+                    class="dropdown-menu dropdown-menu-left text-right"
+                    aria-labelledby="navbarDropdownMenuLink"
+                  >
+                    <a class="dropdown-item" href="#">عمل</a>
+                    <a class="dropdown-item" href="#">اقدام دیگر</a>
+                    <a class="dropdown-item" href="#">چیز دیگری اینجا</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link btn-rotate" href="javascript:;">
+                    <i class="nc-icon nc-settings-gear-65"></i>
+                    <p>
+                      <span class="d-lg-none d-md-block">حساب</span>
+                    </p>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- End Navbar -->
+        <div class="content">
+          <div class="row text-right">
+            <div class="col-md-12">
+              <div class="card">
+                <div class="card-header">
+                  <h4 class="card-title"> نمونه جدول</h4>
+                </div>
+                <div class="card-body">
+                  <div class="table-responsive">
+                    <table class="table">
+                      <thead class=" text-primary">
+                        <tr><th>
+                          نام
+                        </th>
+                        <th>
+                          کشور
+                        </th>
+                        <th>
+                          شهر
+                        </th>
+                        <th class="text-right">
+                          فروش
+                        </th>
+                      </tr></thead>
+                      <tbody>
+                        <tr>
+                          <td>
+                          علیرضا مختاری
+                          </td>
+                          <td>
+                           ایران
+                          </td>
+                          <td>
+                            ساوه
+                          </td>
+                          <td class="text-right">
+                            1,350,000 تومان
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            امیلیا کلارک
+                          </td>
+                          <td>
+                            آمریکا
+                          </td>
+                          <td>
+                            نیوجرسی
+                          </td>
+                          <td class="text-right">
+                            100,458,700 تومان
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            جان اسنو
+                          </td>
+                          <td>
+                            سرزمین های شمالی
+                          </td>
+                          <td>
+                            وینترفل
+                          </td>
+                          <td class="text-right">
+                            1,000,450 تومان
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                              دنیا جهان بخت
+                          </td>
+                          <td>
+                            نامعلوم
+                          </td>
+                          <td>
+                            نامعلوم
+                          </td>
+                          <td class="text-right">
+                            0 تومان
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+           <div class="col-md-12">
+            <h6>
+              به هنگام شنا مثل یه دستا و پا چلفتی \ به پا به مسیر دهن کوسه نیفتی
+            </h6>
+            <p>
+              سخن بزگان
+            </p>
+           </div>
+          </div>
+        </div>
+        <footer class="footer footer-black footer-white">
+          <div class="container-fluid">
+            <div class="row">
+              <nav class="footer-nav">
+                <ul>
+                  <li>
+                    <a href="dashboard.html" target="_blank"
+                      >سایت من</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://github.com/attackeralireza" target="_blank"
+                      >گیت هاب</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.creative-tim.com/license"
+                      target="_blank"
+                      >گواهی نامه</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+              <div class="credits mr-auto pl-3">
+                <span class="copyright">
+                  ©
+                  <script>
+                    document.write(new Date().getFullYear());
+                  </script>
+                  , فارسی سازی شده با <i class="fa fa-heart heart"></i> توسط علیرضا مختاری
+                </span>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <!--   Core JS Files   -->
+    <script src="../assets/js/core/jquery.min.js"></script>
+    <script src="../assets/js/core/popper.min.js"></script>
+    <script src="../assets/js/core/bootstrap.min.js"></script>
+    <script src="../assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+    <!--  Google Maps Plugin    -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+    <!-- Chart JS -->
+    <script src="../assets/js/plugins/chartjs.min.js"></script>
+    <!--  Notifications Plugin    -->
+    <script src="../assets/js/plugins/bootstrap-notify.js"></script>
+    <!-- Control Center for Now Ui Dashboard: parallax effects, scripts for the example pages etc -->
+    <script
+      src="../assets/js/paper-dashboard.min.js?v=2"
+      type="text/javascript"
+    ></script>
+    <!-- Paper Dashboard DEMO methods, don't include it in your project! -->
+    <script src="../assets/demo/demo.js"></script>
+   
+  </body>
+</html>

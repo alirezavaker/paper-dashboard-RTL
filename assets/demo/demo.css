@@ -1,0 +1,95 @@
+@charset "UTF-8";
+@import "../css/font.css";
+body {
+  direction: rtl;
+  font-family: irs;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.sidebar,
+.off-canvas-sidebar {
+  position: fixed;
+  top: 0;
+  height: 100%;
+  bottom: 0;
+  width: 260px;
+  right: 0;
+  z-index: 1030;
+  border-right: 1px solid #ddd;
+}
+.main-panel {
+  position: relative;
+  float: left;
+  width: calc(100% - 260px);
+  background-color: #f4f3ef;
+  transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
+}
+.navbar-nav .dropdown-menu::after,
+.dropdown .dropdown-menu[x-placement="bottom-start"]::after,
+.dropdown .dropdown-menu[x-placement="bottom-end"]::after,
+.card.card-just-text .dropdown .dropdown-menu::after,
+.card-just-text .dropdown .dropdown-menu::after,
+.dropdown-btn .dropdown-menu::after {
+  border-bottom: 11px solid #ffffff;
+  border-left: 11px solid rgba(0, 0, 0, 0);
+  border-right: 11px solid rgba(0, 0, 0, 0);
+  content: "";
+  display: inline-block;
+  position: absolute;
+  right: 80%;
+  top: -11px;
+}
+.sidebar .sidebar-wrapper li.active > a:not([data-toggle="collapse"])::before,
+.sidebar
+  .sidebar-wrapper
+  li.active
+  > [data-toggle="collapse"]
+  + div
+  .nav
+  li::before {
+  border-left: 17px solid #f4f3ef;
+  border-right: 17px solid transparent;
+  border-bottom: 17px solid transparent;
+  border-top: 17px solid transparent;
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: -16px;
+  opacity: 1;
+  top: 7px;
+  transition: opacity 150ms ease-in;
+}
+
+.sidebar .sidebar-wrapper li.active > a:not([data-toggle="collapse"]):after,
+.sidebar
+  .sidebar-wrapper
+  li.active
+  > [data-toggle="collapse"]
+  + div
+  .nav
+  li:after {
+  border-left: 17px solid #f4f3ef;
+  border-right: 17px solid transparent;
+  border-bottom: 17px solid transparent;
+  border-top: 17px solid transparent;
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: -16px;
+  opacity: 1;
+  top: 7px;
+  transition: opacity 150ms ease-in;
+}
+.nav li a p{
+  font-size: 1.3em
+}
+.sidebar-wrapper{
+  overflow: hidden !important;
+  width: 100% !important;
+}
+.search_top_index_page input{
+  font-family: irs !important;
+  font-style: normal;
+  font-weight: 200;
+}
